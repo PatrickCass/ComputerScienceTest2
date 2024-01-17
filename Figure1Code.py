@@ -19,6 +19,9 @@ def main():
     plt.axhline(color = 'black')
     plt.margins(0)
     plt.legend()
+    plt.savefig('Figure1.png', format = "png", dpi = 300)
     plt.show()
+
+    
 
 main()
